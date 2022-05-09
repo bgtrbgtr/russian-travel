@@ -1,0 +1,11 @@
+.header__lang-link {
+  margin-left: auto;
+  margin-right: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.header__lang-link:nth-child(3) {
+  margin-right: 0;
+  margin-left: 0;
+}
