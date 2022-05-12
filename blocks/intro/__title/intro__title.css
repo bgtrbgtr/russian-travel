@@ -1,0 +1,7 @@
+.intro__title {
+  margin: 0;
+  margin-left: calc((100% - 984px) / 2);
+  margin-bottom: 40px;
+  font-size: 54px;
+  line-height: 58px;
+}
