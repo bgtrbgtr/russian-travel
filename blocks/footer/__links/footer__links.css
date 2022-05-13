@@ -1,6 +1,6 @@
-.place__website {
+.footer__links {
   margin: 0;
   padding: 0;
   list-style: none;
-  align-self: end;
+  display: flex;
 }

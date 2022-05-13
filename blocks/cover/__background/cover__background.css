@@ -28,3 +28,15 @@
 .cover__background:hover::before {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1279px) {
+  .cover__background {
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
