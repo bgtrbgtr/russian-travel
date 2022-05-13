@@ -4,3 +4,11 @@
   list-style: none;
   display: flex;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    display: grid;
+    gap: 32px;
+    margin-bottom: 48px;
+  }
+}
