@@ -1,4 +1,11 @@
 .lead__illustration {
   margin: 0;
   font-size: 0;
+  max-width: calc(100% - 48px*2);
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__illustration {
+    max-width: 100%;
+  }
 }
