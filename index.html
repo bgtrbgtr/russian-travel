@@ -18,9 +18,11 @@
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <h4 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h4>
-        <img class="lead__image" src="./images/lead__image.png" alt="Маршрут путешествия">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <figure class="lead__illustration">
+          <img class="lead__image" src="./images/lead__image.png" alt="Маршрут путешествия">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro">
         <h3 class="intro__title">Чего мы там не&nbsp;видели?</h3>
@@ -33,15 +35,14 @@
           в свою «Ладу» и проехала 20 тысяч километров по родной стране.
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-item">Часовых поясов <span class="intro__list-item intro__list-item_accent">11</span>
+          <li class="intro__list-item">Часовых поясов <span class="intro__item-digits">11</span>
           </li>
-          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span
-              class="intro__list-item intro__list-item_accent">12</span></li>
-          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span
-              class="intro__list-item intro__list-item_accent">16</span></li>
-          <li class="intro__list-item">Природных заповедников <span
-              class="intro__list-item intro__list-item_accent">105</span></li>
-          <li class="intro__list-item">Аэропортов <span class="intro__list-item intro__list-item_accent">241</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__item-digits">12</span>
+          </li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__item-digits">16</span>
+          </li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__item-digits">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__item-digits">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -61,29 +62,28 @@
       <section class="places">
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
-          <ul class="place__website">
-            <li class="place__url-heading">url</li>
-            <li><a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a></li>
-          </ul>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+          </div>
           <img src="images/__place-1.png" alt="Куршская коса" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
               горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского
               моря с другой. Уникальная природная зона на краю российского анклава.</p>
-            <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и
-              исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое
+            <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника
+              и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое
               наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в
               спокойствие природы и запах стального, прохладного моря.</p>
           </div>
         </article>
         <article class="place">
           <h2 class="place__title">Кольский</h2>
-          <ul class="place__website">
-            <li class="place__url-heading">url</li>
-            <li><a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                target="_blank">National
-                Geographic</a></li>
-          </ul>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+              target="_blank">National Geographic</a>
+          </div>
           <img src="images/__place-2.png" alt="Кольский полуостров" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
@@ -98,11 +98,11 @@
         </article>
         <article class="place">
           <h2 class="place__title">Алтай</h2>
-          <ul class="place__website">
-            <li class="place__url-heading">url</li>
-            <li><a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                target="_blank">Facebook</a></li>
-          </ul>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+              target="_blank">Facebook</a>
+          </div>
           <img src="images/__place-3.png" alt="Алтай" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России.
@@ -116,11 +116,10 @@
         </article>
         <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
-          <ul class="place__website">
-            <li class="place__url-heading">url</li>
-            <li><a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
-            </li>
-          </ul>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+          </div>
           <img src="images/__place-4.png" alt="Байкал" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
@@ -134,10 +133,10 @@
         </article>
         <article class="place">
           <h2 class="place__title">Карелия</h2>
-          <ul class="place__website">
-            <li class="place__url-heading">url</li>
-            <li><a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a></li>
-          </ul>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
+          </div>
           <img src="images/__place-5.png" alt="Карелия" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -151,7 +150,7 @@
         </article>
       </section>
       <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__background">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе —&nbsp;путешествие от столицы до Байкала на
             электричках.</p>
@@ -168,7 +167,7 @@
           <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
         </ul>
       </nav>
-      <p class="footer__copyright">© 2022. Alexander Masaev</p>
+      <p class="footer__copyright">&copy; 2022. Alexander Masaev</p>
     </footer>
   </div>
 </body>
